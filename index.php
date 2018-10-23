@@ -16,18 +16,20 @@
 <body>
 	<section class="content-wrapper">
 		<h1>Are there any Hindi films showing in New Orleans today?</h1>
-		<img src="assets/aamirnew.jpg">
-		<a href="answer.php" class="button">Let's See...</a>
+		<h2 id="answer"></h2>
+		<a href="https://www.amctheatres.com/movie-theatres/new-orleans/amc-elmwood-palace-20/showtimes/all/$date/amc-elmwood-palace-20/all" class="button">Theater Listing</a>
+		<h3><a href="http://www.namassolutions.com">Sponsored by:<br>Namas Solutions Web Design & Development</a></h3>
+
 	</section>
 
-<script src="js/main.js"></script>
+<script src="assets/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. 
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>-->
 </body>
 
 </html>

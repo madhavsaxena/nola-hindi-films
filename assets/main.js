@@ -6,5 +6,5 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("answer").innerHTML = fcheck.status;
     }
 };
-xmlhttp.open("GET", "http://hindifilmsnola.com/filmstatus.json", true);
+xmlhttp.open("GET", "https://hindifilmsnola.com/filmstatus.json", true);
 xmlhttp.send();

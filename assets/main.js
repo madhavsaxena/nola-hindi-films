@@ -6,5 +6,9 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("answer").innerHTML = fcheck.status;
     }
 };
-xmlhttp.open("GET", "https://hindifilmsnola.com/filmstatus.json", true);
+xmlhttp.open("GET", "https://hindifilmsnola.com/json/filmstatus.json", true);
 xmlhttp.send();
+
+navigator.serviceWorker && navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  console.log('Excellent, registered with scope: ', registration.scope);
+});

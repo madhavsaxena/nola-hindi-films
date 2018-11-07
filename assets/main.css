@@ -16,16 +16,22 @@ grey: #212121
 * {box-sizing:border-box;}
 body {font-size:16px;font-family: 'Roboto', sans-serif;background: var(--grey);color: var(--white);}
 .content-wrapper {width:100%;display: flex;flex-direction: column; flex-wrap: space-around}
-.content-wrapper h1 {text-align:center;text-transform: uppercase;letter-spacing: 1px;font-size: 1.5rem;margin:4rem auto;}
-.content-wrapper h2 {text-align:center;text-transform: uppercase;letter-spacing: 1px;font-size: 1.5rem;margin:0 auto 4rem;color:var(--red);}
-.content-wrapper h3 {text-align:center;text-transform: uppercase;letter-spacing: 1px;font-size: 1rem;margin:4rem auto;}
-.content-wrapper .button {width:85%;max-width:350px;;display: block;margin:auto;text-align: center;text-transform: uppercase;color:var(--primary);padding:1rem;font-size:1.5rem;background: var(--grey);border:2px var(--white) solid;}
-.content-wrapper img {margin:0 auto 4rem;max-width:380px;}
+.content-wrapper h1 {text-align:center;text-transform: uppercase;letter-spacing: 1px;font-size: 1.5rem;margin:2.5rem auto;}
+.content-wrapper h2 {text-align:center;text-transform: uppercase;letter-spacing: 1px;font-size: 1.5rem;margin:0 auto 2.5rem;color:var(--red);}
+.content-wrapper h3 {text-align:center;text-transform: uppercase;letter-spacing: 1px;font-size: 1rem;margin:2.5rem auto;}
+.content-wrapper .button {max-width:350px;;display: block;margin:auto;text-align: center;text-transform: uppercase;color:var(--primary);padding:1rem;font-size:1.5rem;background: var(--grey);border:2px var(--white) solid;}
 .content-wrapper h3 a {color:var(--white);text-decoration:none;}
-
+.onesignal-customlink-subscribe.button {display: block !important;margin: auto;border-radius:0 !important;}
+.onesignal-customlink-subscribe.button.large {font-size:1.5rem !important;font-family:'Roboto',sans-serif !important;text-decoration:underline;} /*media query*/
+.onesignal-customlink-explanation {color: var(--white) !important;font-family: 'Roboto',sans-serif !important;font-size: 1.3rem !important;text-transform: uppercase !important;text-align:center !important;margin-top:2.5rem !important;}
+h3.sponsor {font-size:1rem;}
 
 @media screen and (min-width:1500px) {
-.content-wrapper h1 {font-size: 3rem;}
-.content-wrapper h2 {font-size: 3rem}
-.content-wrapper h3 {font-size:2.5rem;}
+.content-wrapper h1 {font-size: 3rem;margin:4rem auto;}
+.content-wrapper h2 {font-size: 3rem;margin:0 auto 4rem;}
+.content-wrapper h3 {font-size:2.5rem;margin:4rem auto;}
+h3.sponsor {font-size:1rem;}
+.onesignal-customlink-explanation {font-size:2.5rem;margin-top:4rem !important;}
+
+
 }

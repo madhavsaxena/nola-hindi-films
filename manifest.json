@@ -1,0 +1,21 @@
+{"name" : "Hindi Films NOLA",
+    "short_name" : "HindiFilmsNOLA",
+    "theme_color" : "#822c2b",
+    "background_color" : "#822c2b",
+    "display" : "standalone",
+    "start_url" : "https://hindifilmsnola.com/",
+    "gcm_sender_id" : "482941778795",
+    "gcm_sender_id_comment" : "Do not change the GCM Sender ID",
+    "lang" : "English",
+    "orientation" : "any",
+    "description" : "Check whether any Hindi films are showing in New Orleans today.",
+    "icons" : [
+        {
+            "src": "https://hindifilmsnola.com/assets/icons/android-chrome-192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://hindifilmsnola.com/assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512"
+        }
+    ]}

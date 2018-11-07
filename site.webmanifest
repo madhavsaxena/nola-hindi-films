@@ -1,0 +1,24 @@
+{
+  "gcm_sender_id": "482941778795",
+  "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+}
+
+{
+    "name": "Hindi Films NOLA",
+    "short_name": "Hindi Films NOLA",
+    "icons": [
+        {
+            "src": "assets/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#822c2b",
+    "background_color": "#822c2b",
+    "display": "standalone"
+}
